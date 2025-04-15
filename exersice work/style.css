@@ -6,6 +6,8 @@
 
 :root {
   --primary-color: #4891ff;
+  --light-color: #f4f4f6;
+  --dark-color: #111;
 }
 
 body {
