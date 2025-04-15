@@ -94,3 +94,8 @@ img {
   background: var(--dark-color);
   color: #fff;
 }
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
