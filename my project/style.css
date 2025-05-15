@@ -69,3 +69,26 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 16px;
+  background-color: var(--primary-color);
+  color: #f9f7f1;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: 0, 5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-light {
+  background-color: #f9f7f1;
+  color: #3a3a3a;
+}
