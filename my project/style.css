@@ -57,10 +57,30 @@ img {
   color: var(--primary-color);
 }
 
+/* Hero */
+.hero .hero-content {
+  width: 363px;
+  position: absolute;
+  top: 142px;
+  left: 48px;
+}
+
+.container-hero {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.hero-btn {
+  padding: 40px 0 0;
+  margin-left: 92px;
+}
+
 /* Utility Classes */
 .container {
-  max-width: 1100px;
-  margin: 0 80px;
+  max-width: 1120px;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -91,4 +111,18 @@ img {
 .btn-light {
   background-color: #f9f7f1;
   color: #3a3a3a;
+}
+
+/* Text Classes */
+.text-xxl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #f9f7f1;
+}
+
+.text-xl {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
 }
