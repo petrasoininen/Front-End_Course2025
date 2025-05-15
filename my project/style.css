@@ -77,6 +77,52 @@ img {
   margin-left: 92px;
 }
 
+/* Workshop */
+.workshop {
+  margin-top: 104px;
+  padding-bottom: 20px;
+}
+.workshop-container {
+  display: flex;
+  max-width: 1120px;
+  margin: 0 auto;
+  gap: 16px;
+  padding-top: 32px;
+}
+
+.workshop-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 363px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding-bottom: 16px;
+  img {
+    border-radius: 8px 8px 0 0;
+  }
+  .btn {
+    width: 167px;
+    height: 54px;
+    align-self: center;
+    margin-top: auto;
+  }
+}
+
+.workshop-heading {
+  width: 338px;
+  text-align: center;
+}
+
+.workshop-info {
+  padding: 0 13px;
+}
+
+.date {
+  padding-top: 16px;
+}
+
 /* Utility Classes */
 .container {
   max-width: 1120px;
@@ -125,4 +171,16 @@ img {
   font-size: 2rem;
   line-height: 1.4;
   font-weight: 500;
+  color: #3a3a3a;
+}
+
+.text-m {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+.text-center {
+  text-align: center;
 }
