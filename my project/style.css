@@ -123,6 +123,40 @@ img {
   padding-top: 16px;
 }
 
+/* Testimonials */
+.testimonials {
+  margin-top: 104px;
+}
+.testimonials-content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.testimonials-cards {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  .text {
+    font-style: italic;
+    padding-bottom: 8px;
+  }
+  .person {
+    padding-top: 8px;
+  }
+}
+
+.fa-solid {
+  color: #3a3a3a;
+}
+
 /* Utility Classes */
 .container {
   max-width: 1120px;
