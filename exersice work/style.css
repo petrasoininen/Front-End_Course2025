@@ -246,11 +246,11 @@ img {
 }
 
 .footer input[type="email"] {
-  width: 100%;
+  width: 75%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin: 20px 0;
+  margin: 32px 0;
 }
 
 .container {
