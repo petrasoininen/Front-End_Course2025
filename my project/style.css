@@ -157,6 +157,46 @@ img {
   color: #3a3a3a;
 }
 
+/* About */
+.about {
+  margin-top: 104px;
+  margin-bottom: 120px;
+}
+.left-line {
+  width: 2px;
+  height: 220px;
+  background: #3a3a3a;
+}
+
+.story {
+  margin: 72px 9px 0px 9px;
+  display: grid;
+  grid-template-columns: 154px 2px 800px;
+  gap: 48px;
+  .about-heading {
+    margin: 88px 0px 88px;
+  }
+}
+
+.right-line {
+  width: 2px;
+  height: 220px;
+  background: #3a3a3a;
+}
+
+.missio {
+  display: grid;
+  grid-template-columns: 791px 2px 230px;
+  gap: 48px;
+  margin-top: 72px;
+  .missio-text {
+    margin: 77px 0px 77px;
+  }
+  .about-heading {
+    margin: 88px 0px 88px;
+  }
+}
+
 /* Utility Classes */
 .container {
   max-width: 1120px;
