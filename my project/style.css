@@ -451,8 +451,12 @@ footer .card h4 {
     align-items: center;
   }
 
+  .testimonials {
+    margin-top: 56px;
+  }
+
   .testimonials-content {
-    margin: 0 24px;
+    margin: 32px 24px 0;
   }
 
   .testimonials-cards {
